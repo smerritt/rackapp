@@ -19,7 +19,7 @@ end
 
 class SinatraApp < Sinatra::Base
   get '/' do
-    "Dinky little Sinatra app is up and running."
+    "Dinky little Sinatra app is up and running, captain!"
   end
 
   get '/cow' do
