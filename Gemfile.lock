@@ -1,5 +1,9 @@
 --- 
 dependencies: 
+  datamapper: 
+    group: 
+    - :default
+    version: ~> 0.10.2
   unicorn: 
     group: 
     - :default
@@ -8,14 +12,54 @@ dependencies:
     group: 
     - :default
     version: ">= 0"
+  do_mysql: 
+    group: 
+    - :default
+    version: ~> 0.10
 specs: 
+- addressable: 
+    version: 2.1.2
+- bcrypt-ruby: 
+    version: 2.1.2
+- data_objects: 
+    version: 0.10.2
+- extlib: 
+    version: 0.9.15
+- dm-core: 
+    version: 0.10.2
+- dm-aggregates: 
+    version: 0.10.2
+- dm-constraints: 
+    version: 0.10.2
+- dm-migrations: 
+    version: 0.10.2
+- fastercsv: 
+    version: 1.5.3
+- json_pure: 
+    version: 1.2.4
+- dm-serializer: 
+    version: 0.10.2
+- dm-timestamps: 
+    version: 0.10.2
+- stringex: 
+    version: 1.1.0
+- uuidtools: 
+    version: 2.1.1
+- dm-types: 
+    version: 0.10.2
+- dm-validations: 
+    version: 0.10.2
+- datamapper: 
+    version: 0.10.2
+- do_mysql: 
+    version: 0.10.2
 - rack: 
     version: 1.2.1
 - sinatra: 
     version: "1.0"
 - unicorn: 
     version: 1.0.0
-hash: a202a3972b0a76a41d7cead5713dae6ef773f450
+hash: 5c31a2b5a6f53b5085d7359f1e03fecc82e90b10
 sources: 
 - Rubygems: 
     uri: http://gemcutter.org
