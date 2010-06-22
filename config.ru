@@ -19,7 +19,7 @@ require 'datamapper'
 
 class SinatraApp < Sinatra::Base
   get '/' do
-    "Dinky little Sinatra app is up and running, matey!"
+    "Dinky little Sinatra app is up and running, ye salty sea dog!"
   end
 
   # get '/cow' do
