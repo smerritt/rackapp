@@ -6,7 +6,7 @@ require 'sinatra/base'
 
 class SinatraApp < Sinatra::Base
   get '/' do
-    "Dinky little Sinatra app is up and running, ye salty sea dog!"
+    "Dinky little Sinatra app is up and running, ye scurvy sea dog!"
   end
 end
 
