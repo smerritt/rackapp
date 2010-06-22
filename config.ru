@@ -8,6 +8,7 @@ require 'datamapper'
 if File.exist?(File.expand_path('config/database.yml', File.dirname(__FILE__)))
   dbinfo = YAML.load(File.read(File.expand_path(File.join(File.dirname(__FILE__), "config", "database.yml"))))[ENV["RACK_ENV"] || 'development']
   DataMapper.setup(:default, "#{dbinfo['adapter']}://#{dbinfo['username']}:#{dbinfo['password']}@#{dbinfo['host']}/#{dbinfo['database']}")
+  DataMapper.auto_upgrade!
 end
 
 class Cow
