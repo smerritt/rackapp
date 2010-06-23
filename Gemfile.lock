@@ -8,14 +8,20 @@ dependencies:
     group: 
     - :default
     version: ">= 0"
+  bundler: 
+    group: 
+    - :default
+    version: = 0.9.22
 specs: 
+- bundler: 
+    version: 0.9.22
 - rack: 
     version: 1.2.1
 - sinatra: 
     version: "1.0"
 - unicorn: 
     version: 1.0.0
-hash: a202a3972b0a76a41d7cead5713dae6ef773f450
+hash: 31d3da4a17ebe2c5120b236211275b383b2f5770
 sources: 
 - Rubygems: 
     uri: http://gemcutter.org
