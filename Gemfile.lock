@@ -1,0 +1,27 @@
+--- 
+dependencies: 
+  unicorn: 
+    group: 
+    - :default
+    version: ~> 1.0.0
+  sinatra: 
+    group: 
+    - :default
+    version: ">= 0"
+  bundler: 
+    group: 
+    - :default
+    version: = 0.9.25
+specs: 
+- bundler: 
+    version: 0.9.25
+- rack: 
+    version: 1.2.1
+- sinatra: 
+    version: "1.0"
+- unicorn: 
+    version: 1.0.0
+hash: c0400de7b9cd79b03e12e3b0429e1b2e3fa24854
+sources: 
+- Rubygems: 
+    uri: http://gemcutter.org
