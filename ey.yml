@@ -1,0 +1,4 @@
+---
+environments:
+  giblets:
+    migrate: false
