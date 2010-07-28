@@ -1,65 +1,62 @@
---- 
-dependencies: 
-  datamapper: 
-    group: 
-    - :default
-    version: ~> 0.10.2
-  unicorn: 
-    group: 
-    - :default
-    version: ~> 1.0.0
-  sinatra: 
-    group: 
-    - :default
-    version: ">= 0"
-  do_mysql: 
-    group: 
-    - :default
-    version: ~> 0.10
-specs: 
-- addressable: 
-    version: 2.1.2
-- bcrypt-ruby: 
-    version: 2.1.2
-- data_objects: 
-    version: 0.10.2
-- extlib: 
-    version: 0.9.15
-- dm-core: 
-    version: 0.10.2
-- dm-aggregates: 
-    version: 0.10.2
-- dm-constraints: 
-    version: 0.10.2
-- dm-migrations: 
-    version: 0.10.2
-- fastercsv: 
-    version: 1.5.3
-- json_pure: 
-    version: 1.2.4
-- dm-serializer: 
-    version: 0.10.2
-- dm-timestamps: 
-    version: 0.10.2
-- stringex: 
-    version: 1.1.0
-- uuidtools: 
-    version: 2.1.1
-- dm-types: 
-    version: 0.10.2
-- dm-validations: 
-    version: 0.10.2
-- datamapper: 
-    version: 0.10.2
-- do_mysql: 
-    version: 0.10.2
-- rack: 
-    version: 1.2.1
-- sinatra: 
-    version: "1.0"
-- unicorn: 
-    version: 1.0.0
-hash: 5c31a2b5a6f53b5085d7359f1e03fecc82e90b10
-sources: 
-- Rubygems: 
-    uri: http://gemcutter.org
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.1.2)
+    bcrypt-ruby (2.1.2)
+    data_objects (0.10.2)
+      addressable (~> 2.1)
+    datamapper (0.10.2)
+      dm-aggregates (~> 0.10.2)
+      dm-constraints (~> 0.10.2)
+      dm-core (~> 0.10.2)
+      dm-migrations (~> 0.10.2)
+      dm-serializer (~> 0.10.2)
+      dm-timestamps (~> 0.10.2)
+      dm-types (~> 0.10.2)
+      dm-validations (~> 0.10.2)
+    dm-aggregates (0.10.2)
+      dm-core (~> 0.10.2)
+    dm-constraints (0.10.2)
+      dm-core (~> 0.10.2)
+    dm-core (0.10.2)
+      addressable (~> 2.1)
+      extlib (~> 0.9.14)
+    dm-migrations (0.10.2)
+      dm-core (~> 0.10.2)
+    dm-serializer (0.10.2)
+      dm-core (~> 0.10.2)
+      fastercsv (~> 1.5.0)
+      json_pure (~> 1.2.0)
+    dm-timestamps (0.10.2)
+      dm-core (~> 0.10.2)
+    dm-types (0.10.2)
+      bcrypt-ruby (~> 2.1.2)
+      dm-core (~> 0.10.2)
+      fastercsv (~> 1.5.0)
+      json_pure (~> 1.2.0)
+      stringex (~> 1.1.0)
+      uuidtools (~> 2.1.1)
+    dm-validations (0.10.2)
+      dm-core (~> 0.10.2)
+    do_mysql (0.10.2)
+      data_objects (= 0.10.2)
+    extlib (0.9.15)
+    fastercsv (1.5.3)
+    json_pure (1.2.4)
+    rack (1.2.1)
+    sinatra (1.0)
+      rack (>= 1.0)
+    stringex (1.1.0)
+    unicorn (1.0.1)
+      rack
+    uuidtools (2.1.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (= 1.0.0.rc.1)
+  datamapper (~> 0.10.2)
+  do_mysql (~> 0.10)
+  sinatra
+  unicorn (~> 1.0.0)
