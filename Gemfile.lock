@@ -55,7 +55,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (= 1.0.0.rc.1)
   datamapper (~> 0.10.2)
   do_mysql (~> 0.10)
   sinatra
