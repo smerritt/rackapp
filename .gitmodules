@@ -1,0 +1,3 @@
+[submodule "emacs-starter-kit"]
+	path = emacs-starter-kit
+	url = git://github.com/engineyard/emacs-starter-kit.git
