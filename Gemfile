@@ -1,5 +1,6 @@
 source :gemcutter
 
+gem 'rake'
 gem 'sinatra'
 gem 'unicorn',    '~>1.0.0'
 gem 'datamapper', '~>0.10.2'
